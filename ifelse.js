@@ -29,7 +29,7 @@ function checkAge(){
 
    
     
-    if(age <= 18 && age>0){
+    if(age <= 18 && age>=0){
         calculateElement.innerHTML = "Child"
     }
     else if (age>18 && age<=60){
